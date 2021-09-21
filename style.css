@@ -1,78 +1,75 @@
-body{
-    background-color: black;
-    margin: auto;
-    margin-top: 7em;
-    
+body {
+  background-color: black;
+  margin: auto;
+  margin-top: 7em;
 }
-.main-div{
-    background-color:  floralwhite;
-    width: 50em;
-    height: 19em;
-    margin: auto;
-    margin-top: 3em;
-    display: flex;
-    flex-direction: row;
-    border-radius: 10px;
+.main-div {
+  background-color: floralwhite;
+  width: 50em;
+  height: 19em;
+  margin: auto;
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
 }
-.first-number{
-    display: grid;
-    height: 08em;
-    grid-column: auto;
-    width: 7em;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5.5em;
-    margin-left: 3em;
-    border: solid 4px darkmagenta;
-    border-radius: 7px;
+.first-number {
+  display: grid;
+  height: 08em;
+  grid-column: auto;
+  width: 7em;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5.5em;
+  margin-left: 3em;
+  border: solid 4px darkmagenta;
+  border-radius: 7px;
 }
-.second-number{
-    display: grid;
-    height: 08em;
-    grid-column: auto;
-    width: 7em;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5.5em;
-    margin-left: 2em;
-    border: solid 4px red;
-    border-radius: 7px;
-
+.second-number {
+  display: grid;
+  height: 08em;
+  grid-column: auto;
+  width: 7em;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5.5em;
+  margin-left: 2em;
+  border: solid 4px red;
+  border-radius: 7px;
 }
-.operator{
-    font-size: 3em;
-    margin-top: 129px;
-    margin-left: 30px;
-    font-weight: 600;
+.operator {
+  font-size: 3em;
+  margin-top: 129px;
+  margin-left: 30px;
+  font-weight: 600;
 }
-.operator2{
-    font-size: 3em;
-    margin-top: 129px;
-    margin-left: 30px;
-    font-weight: 600;
+.operator2 {
+  font-size: 3em;
+  margin-top: 129px;
+  margin-left: 30px;
+  font-weight: 600;
 }
-#user-answer{
-    background-color:lightblue;
-    width: 13em;
-    height: 2.5em;
-    margin-top: 139px;
-    margin-left: 20px;
-    border-radius: 5px;
+#user-answer {
+  background-color: lightblue;
+  width: 13em;
+  height: 2.5em;
+  margin-top: 139px;
+  margin-left: 20px;
+  border-radius: 5px;
 }
-#press
-{
-    background-color: yellow;
-    height: 2em;
-    width: 5em;
-    margin-left: 2em;
-    margin-top: 144px;
-    border: solid 3px;
-    border-radius: 5px;
+#press {
+  background-color: yellow;
+  height: 2em;
+  width: 5em;
+  margin-left: 2em;
+  margin-top: 144px;
+  border: solid 3px;
+  border-radius: 5px;
 }
-p{
-    font-size: 40px;
-    font-weight: 600;
+p {
+  font-size: 40px;
+  font-weight: 600;
 }
-::placeholder{
-    color:darkred;
+::placeholder {
+  color: darkred;
 }
